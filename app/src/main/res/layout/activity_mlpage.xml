@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002147"
+    android:orientation="vertical"
+    tools:context=".MLpage">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:textSize="45dp"
+        android:textColor="@color/white"
+        android:layout_height="100dp"
+
+        android:text="ML Development" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Machine learning (ML) is a branch of artificial intelligence that focuses on developing algorithms and models that allow computers to learn and make predictions or decisions without being explicitly programmed. By analyzing large amounts of data, ML algorithms can recognize patterns, extract meaningful insights, and adapt their behavior accordingly. ML techniques have found applications in various fields, including image and speech recognition, natural language processing, recommendation systems, and autonomous vehicles. The power of ML lies in its ability to continuously improve its performance over time through iterative learning, enabling computers to handle complex tasks and provide valuable solutions in an increasingly data-driven world"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="145dp" />
+</LinearLayout>

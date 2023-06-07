@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#002147"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AndroidDevPage">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:textSize="45dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="App Development" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView12"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="App development is the process of creating software applications designed specifically for mobile devices, such as smartphones and tablets. It involves a combination of coding, design, and problem-solving skills to create functional and user-friendly applications. App developers typically use programming languages like Java, Swift, or Kotlin, along with development frameworks and tools to build native or cross-platform apps. They work closely with designers and project managers to understand user requirements, plan app functionality, and ensure a seamless user experience. App development encompasses various stages, including ideation, prototyping, development, testing, and deployment. It plays a vital role in the digital ecosystem, enabling businesses, entrepreneurs, and individuals to harness the power of mobile technology to connect with their users, provide valuable services, and enhance productivity in today's mobile-first world." />
+
+
+
+
+    </ScrollView>
+</LinearLayout>

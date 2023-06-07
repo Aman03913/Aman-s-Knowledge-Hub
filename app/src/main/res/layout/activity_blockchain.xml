@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#002147"
+    android:layout_height="match_parent"
+    tools:context=".Blockchain">
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="match_parent"
+      android:textSize="45dp"
+      android:textColor="@color/white"
+      android:layout_height="wrap_content"
+      android:text="Blockchain" />
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  <TextView
+      android:id="@+id/textView9"
+      android:textColor="@color/white"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="30dp"
+      android:text="Blockchain is a revolutionary technology that has gained immense attention and recognition in recent years. At its core, blockchain is a decentralized and distributed digital ledger that securely records transactions across multiple computers or nodes. Each transaction, or block, is added to a chain of blocks, creating a permanent and transparent record. One of the key features of blockchain is its immutability, meaning that once a transaction is recorded, it cannot be altered or tampered with, ensuring trust and integrity in the system. Blockchain technology has the potential to disrupt numerous industries, including finance, supply chain, healthcare, and more. It enables secure and efficient peer-to-peer transactions, eliminates the need for intermediaries, reduces costs, enhances transparency, and provides a decentralized framework that fosters trust and collaboration. With its decentralized nature and cryptographic security, blockchain has opened up exciting possibilities for innovation and transformation in various sectors, promising a future of increased efficiency, accountability, and trust in our digital interactions." />
+
+
+
+
+  </ScrollView>
+</LinearLayout>

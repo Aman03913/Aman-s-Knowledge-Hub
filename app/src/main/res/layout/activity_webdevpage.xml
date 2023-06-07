@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#002147"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Webdevpage">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:textSize="45dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Web Devlopment" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView11"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Web development is the art and science of creating dynamic and interactive websites that engage users and deliver information in a seamless manner. It encompasses a wide range of skills and technologies, including HTML, CSS, JavaScript, and various backend programming languages and frameworks. Web developers work meticulously to design and code visually appealing layouts, implement intuitive navigation systems, and optimize performance for different devices and browsers. They collaborate with designers to bring their creative visions to life, ensuring that websites are not only aesthetically pleasing but also user-friendly and accessible. Web development plays a crucial role in shaping the digital landscape, enabling businesses, organizations, and individuals to establish their online presence and effectively communicate with their target audience." />
+
+
+
+
+    </ScrollView>
+</LinearLayout>

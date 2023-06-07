@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#002147"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:text="Knowledge Hub" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="410dp"
+        android:layout_height="450dp"
+        app:rowCount="3"
+        app:columnCount="2">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_margin="25dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+
+            android:layout_height="100dp"
+            android:text="Android App Dev"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:layout_margin="25dp"
+            android:layout_height="100dp"
+            android:text="Web Dev"
+            />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:layout_margin="25dp"
+            android:layout_height="100dp"
+            android:text="Ios App Dev"
+            />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:layout_margin="25dp"
+            android:layout_height="100dp"
+            android:text="M.L"
+            />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:layout_margin="25dp"
+            android:layout_height="100dp"
+            android:text="A.I"
+            />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+
+            android:layout_margin="25dp"
+            android:layout_height="100dp"
+            android:text="Bloakchain"
+            />
+
+
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/btncontactme"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Contact me" />
+
+
+</LinearLayout>

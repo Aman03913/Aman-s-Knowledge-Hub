@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#002147"
+    android:layout_height="match_parent"
+    tools:context=".Ioswebpage">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:text="IOS DEVLOPMENT"
+        android:textSize="45dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:text="
+iOS app development involves the creation of software applications specifically designed to run on Apple's mobile operating system, iOS. With iOS being a highly popular and widely used platform, iOS app development offers tremendous opportunities to reach a vast user base and deliver innovative experiences to iPhone, iPad, and iPod touch users. Developers utilize programming languages like Swift or Objective-C to build feature-rich, intuitive, and visually appealing applications that leverage the capabilities of Apple devices. The iOS app development process encompasses ideation, UI/UX design, coding, testing, and deployment to the App Store, where users can discover, download, and enjoy the seamless functionality and unique features of the iOS apps. By harnessing the power of iOS app development, businesses and individuals can engage and captivate their audience, drive user engagement, and unlock new avenues for growth and success in the thriving mobile app market." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

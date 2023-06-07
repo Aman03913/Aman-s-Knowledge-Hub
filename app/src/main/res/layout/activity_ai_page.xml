@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#002147"
+    android:layout_height="match_parent"
+    tools:context=".AiPage">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:text="AI Development" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Artificial intelligence (AI) is a transformative technology that aims to develop computer systems capable of performing tasks that typically require human intelligence. It involves the simulation of human-like intelligence processes, including learning, reasoning, problem-solving, and decision-making. AI encompasses various subfields, such as machine learning, natural language processing, computer vision, and robotics, enabling machines to understand, analyze, and interpret complex data, patterns, and behaviors. AI applications are vast and diverse, ranging from virtual assistants and chatbots to autonomous vehicles and advanced healthcare diagnostics. With its potential to enhance efficiency, accuracy, and productivity across industries, AI continues to revolutionize the way we live, work, and interact with technology, ushering in a new era of innovation and possibilities." />
+
+
+
+    </ScrollView>
+</LinearLayout>
